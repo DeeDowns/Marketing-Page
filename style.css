@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 html {
@@ -48,8 +48,8 @@ header nav a:hover{
     
 }
 
-/* MAIN CONTENT */
-main {
+/* HOME PAGE MAIN CONTENT */
+.home-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,7 +59,7 @@ main {
 }
 
 /* TITLE, DESCRIPTION, AND LOGIN SECTION */
-.mid-container1 {
+.mid-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,23 +68,22 @@ main {
 }
 
 /* IMAGE SECTION */
-.mid-container2 {
+.mid-two {
     width: 40%;
 
 }
 
 /* TITLE, SUBTITLE AND DESCRIPTION */
-.title {
+.home-title {
     display: flex;
     flex-direction: column;
     width: 70%;
     justify-content: center;
     align-items: center;
     
-    
 }
 
-h1 {
+.home-container h1 {
     margin: 1%;
     padding: 1%;
     width: 50%;
@@ -97,14 +96,14 @@ h1 {
     
 }
 
-h2 {
+.home-container h2 {
     margin: 1%;
     padding: 1%;
     font-size: 3.0rem;
     font-family: 'Open Sans', sans-serif;
 }
 
-.title p {
+.home-title p {
     margin: 1%;
     padding: 1%;
     font-size: 2rem;
@@ -182,3 +181,62 @@ footer .socials {
     margin: 1%;
     padding: 1%;
 }
+/* END HOME PAGE CONTENT */
+
+/* TEAM PAGE CONTENT */
+.team-container {
+    display: flex; 
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.team-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-container {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.member-one,
+.member-two,
+.member-three,
+.member-four,
+.member-five,
+.member-six {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member-container h3 {
+    width: 60%;
+    text-align: center;
+}
+
+.member-container h4 {
+    width: 40%;
+    text-align: center;
+}
+
+.member-container img {
+    width: 40%
+}
+
+.member-container p {
+    width: 10%
+}
+
+
+
