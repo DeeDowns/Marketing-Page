@@ -162,7 +162,7 @@ footer {
 }
 
 /* NAV BAR */
-footer nav {
+/* footer nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -173,7 +173,7 @@ footer nav {
 }
 
 /* SOCIAL MEDIA */
-footer .socials {
+/* footer .socials {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -181,7 +181,65 @@ footer .socials {
     width: 20%;
     margin: 1%;
     padding: 1%;
+} */ 
+
+footer  {
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid #8D775F;
+    background-color: #D5BF86;
+    color: #3F0D12;
 }
+
+.main-links {
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main-links a {
+    width: 30%;
+    padding: 2% 10%;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Offside', cursive;
+    color: #3F0D12;
+}
+
+.main-links a:hover  {
+    text-transform: lowercase;
+    background-color: #8D775F;
+    color: #D5BF86;
+}
+
+.social-links {
+    width: 30vw;
+    height: 8vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links img {
+    width: 40%;
+}
+
+.social-links img:hover {
+    opacity: 80%;
+}
+
+
+
 /* END HOME PAGE CONTENT */
 
 /* TEAM PAGE CONTENT */
