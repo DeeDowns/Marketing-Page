@@ -187,10 +187,10 @@ footer .socials {
 .team-container {
     display: flex; 
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: 2% 0;
+    align-items: baseline;
+    margin: 1% 0;
 }
 
 .team-title {
@@ -198,16 +198,50 @@ footer .socials {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 35%;
 }
+
+.team-title h1 {
+  margin: 2%;
+  padding: 1%;
+  width: 80%;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: 'Offside', cursive;
+  color: #3F0D12;
+  border-bottom: 3px solid #3F0D12;
+  border-top: 3px solid #3F0D12;
+}
+
+.team-title h2 {
+    margin: 1%;
+    padding: 1%;
+    font-size: 3.0rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 30%;
+    text-align: center;
+}
+
+.team-title p {
+    margin: 1%;
+    padding: 1%;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+}
+
 
 .member-container {
     display: flex;
-    width: 90%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 4%;
 }
+
+
 
 .member-one,
 .member-two,
@@ -223,11 +257,13 @@ footer .socials {
 .member-container h3 {
     width: 60%;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .member-container h4 {
     width: 40%;
     text-align: center;
+    font-size: 2rem;
 }
 
 .member-container img {
@@ -235,7 +271,8 @@ footer .socials {
 }
 
 .member-container p {
-    width: 10%
+    width: 90%;
+    font-size: 1.8rem;
 }
 
 
