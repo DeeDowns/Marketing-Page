@@ -11,7 +11,7 @@ html {
     font-size: 62.5%;
 }
 
-/* HEADER NAV SECTION*/
+/* HEADER/NAV SECTION*/
 header{
     display: flex;
     flex-direction: row;
@@ -59,7 +59,7 @@ header nav a:hover{
     margin: 2% 0;
 }
 
-/* TITLE, DESCRIPTION, AND LOGIN SECTION */
+/* TITLE/DESCRIPTION/LOGIN SECTION */
 .mid-one {
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@ header nav a:hover{
 
 }
 
-/* TITLE, SUBTITLE AND DESCRIPTION */
+/* TITLE/SUBTITLE/DESCRIPTION */
 .home-title {
     display: flex;
     flex-direction: column;
@@ -305,6 +305,7 @@ footer .socials {
 
 /* MEDIA QUERIES */
 @media (max-width: 500px) {
+    /* HEADER/NAV SECTION */
     header {
         display: flex;
         flex-direction: column;
@@ -325,9 +326,49 @@ footer .socials {
     }
 
     header nav a {
-        width: 25%;
-        
+        width: 25%; 
     }
+    
+    /* HOME PAGE MAIN CONTENT */
+    .home-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* TITLE/DESCRIPTION/LOGIN SECTION */
+    .mid-one {
+        order: 1;
+        width: 90%;
+        margin: 1%;
+    }
+
+    /* IMAGE SECTION */
+    .mid-two {
+        width: 80%;
+        margin: 2%
+    }
+
+    /* TITLE/SUBTITLE/DESCRIPTION */
+    .home-title {
+       width: 90%; 
+    }
+
+    .home-title p {
+        text-align: center;
+    }
+
+    /* LOGIN/SIGNUP SECTION */
+    .login {
+        margin: 2%;
+    }
+    /* END HOME PAGE CONTENT */
+
+    /* TEAM PAGE CONTENT*/
+    
+
+
 } 
 
 
