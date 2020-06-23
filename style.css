@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html {
@@ -211,7 +211,7 @@ footer  {
     width: 10%;
     padding: 1%;
     margin: 2% 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -490,13 +490,13 @@ footer  {
     }
 
      /*FOOTER  */
+     /* NAV BAR */
     .main-links {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 1%;
-
     }
 
     .main-links a {
@@ -504,6 +504,7 @@ footer  {
       
     }
 
+     /* SOCIAL MEDIA */
     .socials-links {
         width: 60%;
     }
